@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3002; // PORT環境変数を使い、ない場合はローカル用の3001番を使う
+const port = process.env.PORT || 3001; // PORT環境変数を使い、ない場合はローカル用の3001番を使う
 const path = require('path'); //なんか、path結合に使ってる よ
 
 const dbPath = "./" //dbを置く場所をかく よ
